@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #006bc8, #0d79d8 40%, white 65%); /* Degradado de azul a blanco */
+    color: white;
+    min-height: 160vh; /* Asegura que el degradado cubra toda la altura de la ventana */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+    margin-top: -5px;
+}
+
+.menu div {
+    display: flex; /* Hace que los elementos dentro del div sean dispuestos horizontalmente */
+}
+
+.menu p {
+    margin: 0;
+    cursor: pointer;
+    padding: 0 20px; /* Añade espacio entre los elementos de la lista */
+    font-size: 14px;
+}
+
+.separator {
+    margin: 0 0.5em;
+    color: White; /* Color del azul oscuro para el separador */
+}
+
+div {
+    margin: 2em;
+}
+
+footer {
+    background-color: #006bc8; /* Azul más oscuro */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.new {
+    width: 155px;
+    height: 40px;
+    background-color: #f0f2f5; /* Color de fondo similar al de Facebook */
+    border: 1px solid #ccd0d5; /* Borde gris claro */
+    border-radius: 20px; /* Esquinas redondeadas para crear la forma ovalada */
+    display: flex;
+    align-items: center;
+    padding: 10 10px; /* Espaciado interno */    
+    margin-top: -10px;
+}
+.new p{
+    color: #006bc8; /* Color azul similar al de Facebook */
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+}
+.img {
+    width: 200px; /* Establece el ancho de la imagen */
+    height: 60px; /* Establece la altura de la imagen */
+    margin-right: 10px;
+    margin-top: -30px;
+    margin-left: -60px;
+
+}
+.S2{
+    width: 480px; /* Ancho del div */
+    height: 400px; /* Altura del div */ 
+    margin-top: -20px;
+}
+.S2 p{
+    font-size: 20px;
+    line-height: 30px; /* Disminuye la altura de línea para reducir la separación */
+    margin-bottom: 40px;
+}
+
+.S2 h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+/* Añade estilos para la caja de correo y el botón */
+.email-box {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos en el eje horizontal */
+    border-radius: 10px;
+}
+
+.email-box input {
+    width: 100%;
+    padding: 23px; /* Aumenta el espacio interno para hacerlo más grande */
+    margin-bottom: 10px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 30px; 
+    margin-left: -35px;
+}
+
+.email-box button {
+    width: 48.5%; /* Ajusta el ancho del botón según tus preferencias */
+    height: 48px;
+    background-color: #006bc8; /* Color de fondo similar al de Facebook */
+    border: 1px solid  #006bc8; /* Borde gris claro */
+    border-radius: 30px; /* Esquinas redondeadas para crear la forma ovalada */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido en el eje vertical */
+    padding: 15px; /* Aumenta el espaciado interno */
+    font-size: 16px; /* Ajusta el tamaño de la letra del botón */
+    font-weight: bold;
+    color: white;
+    margin-left: 52%;
+    margin-top: -16%;
+}
+.imagen {
+    float: right; /* Alinea el contenedor a la derecha */
+    width: 30%; /* Ancho del contenedor, ajusta según tus necesidades */
+    padding: 10px; /* Espaciado interno */
+    margin-top: -480px; /* Ajusta el margen superior para alinear con .S2 */
+}
+
+.imagen img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    max-width: 100%; /* Asegura que las imágenes no superen el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacio extra debajo de las imágenes */
+    margin-bottom: 10px; /* Agrega espacio entre las imágenes */
+}
+.imagen .a {
+    width: 90%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 60%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 4px;
+    margin-left: -145px;
+    margin-top: -15px;
+}
+
+.imagen .b {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 50%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 4px;
+    margin-left: 100px;
+    margin-top: -302px;
+
+}
+
+.imagen .c {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 35%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 4px;
+    margin-left: -35px;
+    margin-top: -115px;
+}
+
+.imagen .d {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 37%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 4px;
+    margin-left: 100px;
+    margin-top: -80px;
+
+}
+.imagen .e {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 10%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 4px;
+    margin-left: 350px;
+    margin-top: -360px;
+}
+
